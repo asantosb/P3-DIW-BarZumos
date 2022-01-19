@@ -1,0 +1,461 @@
+/* MENU */
+
+.container2 {
+    max-width: 800px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  }
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #c7e61d !important;
+}
+
+.letra-menu{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.color-nav{
+    background-color: orange;
+}
+
+.active{
+    color: white !important;
+}
+
+/* INICIO */
+
+.texto-inicio2{
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#portada {
+    background-image: url("../img/inicio1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 300px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.letra-menu2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+.animacion1{
+    visibility: visible;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+/* QUIENES SOMOS */
+
+#quienes{
+    width: auto;
+	height: auto;
+	background: linear-gradient(334deg, #f3f3f3, #f3e0aa, #f5c680);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+#quienes2{
+    width: auto;
+	height: auto;
+	background: linear-gradient(334deg, #f3f3f3, #f3e0aa, #f5c680);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+.quienes{
+    background-image: url("../img/fondoquienes.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.imagen-descripcion{
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-contacto{
+    background-color: #98af10;
+    border-color: #F9F9F9;
+    color: #F9F9F9;
+    border-radius: 23px;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    padding: 8px 26px;
+    text-shadow: none;
+    position: relative;
+}
+
+.btn-contacto:hover{
+    background-color: #E77728;
+}
+
+.padding-quienes{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+/* LOCALIZACIÓN */
+
+.padding-localizacion{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#localizacion{
+    background-color:#FFBD59;
+}
+
+/* ZUMOS */
+
+#zumos{
+    background-color:#FFBD59;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.zoom{
+    transition: transform .5s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.pading-zumos{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#zumos2{
+    width: auto;
+	height: auto;
+	background: linear-gradient(334deg, #f3f3f3, #f3e0aa, #f5c680);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+.letra-cabecera2{
+    font-family: 'Pacifico', cursive;
+}
+
+.texto-otro{
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/* BLOG */
+
+#blog{
+    width: auto;
+	height: auto;
+	background: linear-gradient(334deg, #f3f3f3, #f3e0aa, #f5c680);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+a.letra-link-blog:hover{
+    color: #966f35;
+}
+
+.text-link{
+    color: orangered;
+} 
+
+/* BLOG 1 */
+
+#blog1 {
+    background-image: url("../img/inicio1.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-blog1{
+    background-image: url("../img/fondoquienes.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.imagen-inicio-blog{
+    background-image: url("../img/inicio1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#blog2{
+    width: auto;
+	height: auto;
+	background: linear-gradient(334deg, #f3f3f3, #f3e0aa, #f5c680);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+.pading-blog1{
+    padding-top: 400px;
+    padding-bottom: 240px;
+}
+.pading-blog2{
+    padding-top: 100px;
+}
+
+.texto-blog1{
+    font-size: 60px;
+    padding-top: 100px;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.card-blog{
+    background-image: url("../img/fondoquienes.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* CONTACTO  */
+
+#contacto{
+    background-color:#FFBD59;
+}
+
+.pading-contacto{
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.texto-sugerencia{
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+/* FOOTER */
+
+.footer{
+    background-image: url("../img/fondoquienes.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.iconos-link{
+    font-size: 3em; 
+    color: #98af10;
+}
+
+.iconos-link:hover i
+{
+    background: linear-gradient(to right, #FC2C3D, #FFBD59);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.iconos2-link:hover i
+{
+    background: linear-gradient(to right, #FC2C3D, #FFBD59);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+.margin-right{
+    margin-right: 20px;
+}
+
+/* GENERAL */
+
+.pading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.letra-cabecera{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+}
+
+.fondo1{
+    background-color:#FFBD59;
+}
+
+.sombra{
+    box-shadow: 3px 3px 5px 3px #999;
+}
+
+.sombra2{
+    box-shadow: 3px 3px 5px 3px #999;
+}
+.sombra2:hover {
+    box-shadow: 5px 5px 10px 5px #999;
+}
+
+.fadeTop {
+    opacity: 0; 
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.fadeRight {
+    opacity: 0;
+    transform: translate(10vh, 0vh);
+    transition: all 1s;
+  }
+  
+.fadeLeft {
+    opacity: 0;
+    transform: translate(-10vh, 0vh);
+    transition: all 1s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Media-queries */
+/* XS */
+@media (min-width: 300px) {
+    .texto-quienes{
+        padding-top: 30px;
+    }
+    .letra-menu2{
+        font-family: 'Amatic SC', cursive;
+        font-size: 45px;
+    }
+    .texto-inicio2{
+        font-size: 15px;
+    }
+    #portada {
+        padding: 400px 0px;
+    }
+    .texto-blog1{
+        font-size: 40px;
+    }
+}
+/* SM */
+@media (min-width: 576px) {
+    .letra-menu2{
+        font-family: 'Amatic SC', cursive;
+        font-size: 60px;
+    }
+    .texto-inicio2{
+        font-size: 20px;
+    }
+    #portada {
+        padding: 300px 0px;
+    }
+    .texto-blog1{
+        font-size: 60px;
+    }
+}
+/* MD */
+@media (min-width: 768px) { 
+    .letra-menu2{
+        font-family: 'Amatic SC', cursive;
+        font-size: 80px;
+    }
+    .texto-inicio2{
+        font-size: 20px;
+    }
+    #portada {
+        padding: 300px 0px;
+    }
+    .texto-blog1{
+        font-size: 50px;
+    }
+}
+/* LG */
+@media (min-width: 992px) { 
+    .letra-menu2{
+        font-family: 'Amatic SC', cursive;
+        font-size: 100px;
+    }
+    .texto-inicio2{
+        font-size: 25px;
+    }
+    #portada {
+        padding: 300px 0px;
+    }
+    .texto-blog1{
+        font-size: 60px;
+    }
+}
+/* XL */
+@media (min-width: 1200px) {
+    .letra-menu2{
+        font-family: 'Amatic SC', cursive;
+        font-size: 100px;
+    }
+    .texto-inicio2{
+        font-size: 25px;
+    }
+    #portada {
+        padding: 300px 0px;
+    }
+    .texto-blog1{
+        font-size: 60px;
+    }
+}
